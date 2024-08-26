@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('images/pexels-kubiceknov-924824.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 20px 20px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 10px 8px 10px  rgba(207, 223, 29, 0.242);
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+
+}
+.display{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    pointer-events: none;
+    background-color:rgba(142, 141, 142, 0.09);
+    border-radius: 20px;
+    font-family: 'poppins',sans-serif;
+    
+}
+.buttons button{
+    padding: 12px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color:rgba(152, 152, 152, 0.2);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.buttons button:active{
+    transform: scale(0.99);
+}
+.operater{
+    color: rgb(0, 57, 191);
+    font-size: larger;
+    font-weight: 1000;
+    font-family: 'open sans',sans-serif;
+
+}
